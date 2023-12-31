@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app-container {
+  background-size: cover;
+
+  background-image: url("./bg-image.jpg");
+  height: 100vh;
+  width: 100vw;
+
+  padding: 20px;
+}
+
+.login-section {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent; /* or rgba(0, 0, 0, 0) */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+  color: #4caf50;
+}
+
+.add-todo-button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin: 10px 0;
+}
+
+.app-container.logged-in {
+  background-image: none; /* remove background image when logged in */
+}
+.delete-todo {
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-button {
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
